@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import MuiTextField from './components/MuiTextField'
+import MuiSelect from './components/MuiSelect'
+// import MuiTextField from './components/MuiTextField'
 // import MuiButton from './components/MuiButton'
 // import MuiTypography from './components/MuiTypography'
 
@@ -9,7 +10,8 @@ const App = () => {
     <div>
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
-      <MuiTextField />
+      {/* <MuiTextField /> */}
+      <MuiSelect />
     </div>
   )
 }
