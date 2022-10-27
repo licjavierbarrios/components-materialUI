@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import MuiCheckBox from './components/MuiCheckBox'
+import MuiSwitch from './components/MuiSwitch'
+// import MuiCheckBox from './components/MuiCheckBox'
 // import MuiRadioButton from './components/MuiRadioButton'
 // import MuiSelect from './components/MuiSelect'
 // import MuiTextField from './components/MuiTextField'
@@ -15,7 +16,8 @@ const App = () => {
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
-      <MuiCheckBox />
+      {/* <MuiCheckBox /> */}
+      <MuiSwitch />
     </div>
   )
 }
