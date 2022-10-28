@@ -40,7 +40,7 @@ const MuiNavbar = () => {
 						color="inherit"
 						id="resources-button"
 						onClick={handleClick}
-						aria-control={open ? "resources-menu" : undefined}
+						aria-controls={open ? "resources-menu" : undefined}
 						aria-haspopup="true"
 						aria-expanded={open ? "true" : undefined}
 						endIcon={<KeyboardArrowDown />}
