@@ -1,6 +1,7 @@
-import React from 'react'
-import './App.css'
-import MuiAccordion from './components/MuiAccordion'
+import React from "react";
+import "./App.css";
+import MuiImageList from "./components/MuiImageList";
+// import MuiAccordion from './components/MuiAccordion'
 // import MuiCard from './components/MuiCard'
 // import MuiLayout from './components/MuiLayout'
 // import MuiAutocomplete from './components/MuiAutocomplete'
@@ -14,22 +15,23 @@ import MuiAccordion from './components/MuiAccordion'
 // import MuiTypography from './components/MuiTypography'
 
 const App = () => {
-  return (
-    <div>
-      {/* <MuiTypography /> */}
-      {/* <MuiButton /> */}
-      {/* <MuiTextField /> */}
-      {/* <MuiSelect /> */}
-      {/* <MuiRadioButton /> */}
-      {/* <MuiCheckBox /> */}
-      {/* <MuiSwitch /> */}
-      {/* <MuiRating /> */}
-      {/* <MuiAutocomplete /> */}
-      {/* <MuiLayout /> */}
-      {/* <MuiCard /> */}
-      <MuiAccordion />
-    </div>
-  )
-}
+	return (
+		<div>
+			{/* <MuiTypography /> */}
+			{/* <MuiButton /> */}
+			{/* <MuiTextField /> */}
+			{/* <MuiSelect /> */}
+			{/* <MuiRadioButton /> */}
+			{/* <MuiCheckBox /> */}
+			{/* <MuiSwitch /> */}
+			{/* <MuiRating /> */}
+			{/* <MuiAutocomplete /> */}
+			{/* <MuiLayout /> */}
+			{/* <MuiCard /> */}
+			{/* <MuiAccordion /> */}
+			<MuiImageList />
+		</div>
+	);
+};
 
-export default App
+export default App;
